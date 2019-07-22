@@ -1,1 +1,30 @@
+body{
+	background-color:#F4F1BB ;
+	color: #FF9393;
+}
+a{
+	color:Black;
+}
+.classvg{
+	color:orange;
+}
+.classnonvg{
+	color:blue;
+}
+#bg{
+	
+}
+.title{
+	background-color: pink;
+	height: 60px;
+	width: 100%;
+}
+.content{
 
+}
+.sidebar{
+	background-color: #ECDCC9;
+}
+.container{
+
+}
