@@ -15,16 +15,36 @@ a{
 	
 }
 .title{
-	background-color: pink;
+	background-image: linear-gradient(blue,yellow);
+	box-shadow: 5px 10px 20px black;
 	height: 60px;
 	width: 100%;
+	border-bottom: 1px gray;
 }
 .content{
-
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	border: 2px red;
+	margin: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom:10px;
 }
 .sidebar{
 	background-color: #ECDCC9;
+	position: absolute;
+	top: 0px;
+	margin: 0;
+	padding: 10px;
+	width: 700px;
+	height: 100%;
 }
 .container{
+	position: relative;
+	height: 1000px;
+}
 
+*{
+	box-sizing: border-box;
 }
